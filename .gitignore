@@ -1,0 +1,23 @@
+# Arquivos de compilação
+target/
+
+# Diretório de configuração da IDE IntelliJ IDEA
+.idea/
+
+# Arquivos de log
+log/
+
+# Arquivos gerados pelo maven
+mvnw
+mvnw.cmd# Arquivos de compilação
+        target/
+
+        # Diretório de configuração da IDE IntelliJ IDEA
+        .idea/
+
+        # Arquivos de log
+        log/
+
+        # Arquivos gerados pelo maven
+        mvnw
+        mvnw.cmd
