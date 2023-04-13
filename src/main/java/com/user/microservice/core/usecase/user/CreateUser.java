@@ -1,4 +1,4 @@
-package com.user.microservice.core.usecase.create;
+package com.user.microservice.core.usecase.user;
 
 import com.user.microservice.core.domain.User;
 
