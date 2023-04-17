@@ -1,12 +1,14 @@
 package com.user.microservice.core.domain;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 
 import java.time.LocalDate;
 
-@AllArgsConstructor
 @Data
+@Builder
+@AllArgsConstructor
 public class User {
     private final long id;
 
