@@ -14,6 +14,8 @@ public class UserRequest {
 
     private final String lastName;
 
+    private final String username;
+
     private final String email;
 
     private final LocalDate birthDate;
@@ -22,6 +24,7 @@ public class UserRequest {
         return User.builder()
                 .firstname(this.getFirstName())
                 .lastname(this.getLastName())
+                .username(this.username)
                 .email(this.getEmail())
                 .birthdate(this.getBirthDate())
                 .build();

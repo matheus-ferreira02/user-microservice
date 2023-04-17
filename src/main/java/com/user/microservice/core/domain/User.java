@@ -16,6 +16,8 @@ public class User {
 
     private final String lastname;
 
+    private final String username;
+
     private final String email;
 
     private final LocalDate birthdate;
